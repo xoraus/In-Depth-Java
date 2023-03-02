@@ -1,0 +1,83 @@
+# Java: A High-level Overview
+
+## What is Java & Who is Using It?
+
+- What is Java?
+	- General-purpose
+	- Object-oriented
+	- Platform independent
+	- Concurrent
+	- Very fast
+	- Familiar syntax
+	- Simple & Safe
+	- Java: Automatic memory management. 
+		- C & C++: Manipulate memory to free up space
+-   Java is a general-purpose, object-oriented, platform-independent, concurrent programming language that runs fast
+-   Java's key attributes are: general-purpose, object-oriented, platform-independent, concurrent programming language, and fast
+-   Java is designed to be easy to use, safe, and secure
+-   Java provides automatic memory management through garbage collection
+-   Java has a rich library, the Java API, which includes pre-defined functionality for developers to use
+-   Java is widely adopted by large companies like Google, Netflix, and Amazon
+-   Java is popular in domains like search, data mining, and machine learning, which deal with large amounts of data
+-   Java was initially developed for embedded systems and later evolved into a popular language for developing large-scale web applications, standalone desktop applications, and mobile applications.
+
+## Story behind Java's Creation ~ A Brief History
+
+- Machine Language
+	- Computers understand instructions
+	- Program ~ set of instructions
+	- Instructions ~ 0s & 1s
+	- Machine language (machine code or native code)
+	- e.g., 000000 00001 00010 00110 00000 100000
+- Assembly Language
+	- add $s0, $s1, $2
+	- assembly language → assembler → machine language
+- Low-level Languages
+	- Machine language & assembly language
+	- Use low-level details, e.g., memory location
+- High-level Languages
+	- FORTRAN, C, C++, Java, C#
+	- Use english-like words, math notations, punctuations.
+	- Hide low-level details public class.
+- Goals
+	- Consume less memory
+	- Delivery of software components
+	- Platform Independence
+	- Security
+	- Multi-threaded
+- Compilation
+	- source code → compiler → target language
+	- target language
+		- machine code
+		- bytecode
+		- programming language
+	- ClojureScript into JavaScript → source-to-source compilers or transcompilers
+- Core Compilation Operations
+	- Verifying syntax & semantics of source code
+	- Verifying syntax & semantics of source code
+		- `System out.printIn("hello!");`
+	- Code optimizations
+	- Generate machine code
+- `*7` & Initial Failure → Cable TV
+- World Wide Web
+- Java meets WWW
+- Pre-Java ~ Static HTML
+- HotJava browser at Sun SunWorld conference
+	- HTML + programs (applets) = dynamic
+	- Java installed in browser
+	- Applets are platform independent
+- Netscape Navigator ships with Java
+- First version released in 1996.
+
+-   Sun Microsystems, a Silicon Valley-based company that sold Unix-based computers, created a small team called the Green team to brainstorm on the next wave in computing.
+-   The team concluded that a network of heterogeneous consumer devices that communicate with each other could be one significant trend, leading them to build a prototype as part of a new project called The Green Project.
+-   The vision for the project was to build an interactive wireless handheld device that would communicate with home entertainment devices like TV and VCR.
+-   The software developed by the green team would be installed on all of these devices, and it would help with activities like playing a certain TV channel or recording a particular favorite program.
+-   The software developed by the green team should have some unique goals, including consuming less memory, allowing devices to communicate with each other and pass around any software programs, platform independence, security, and Multithreading.
+-   Initially, C++ was considered for this project, but it was rejected because it did not meet some of the project goals, such as platform independence.
+-   James Gosling, one of the team members, created an entirely new language called Oak, which was later renamed to Java due to trademark issues.
+-   The Green team came up with a working demo on the interactive handheld device, which was called Star seven.
+-   The newly popular World Wide Web was exactly identical to the Green Project, which is a network of heterogeneous systems communicating with each other.
+-   Sun developed a browser called Hot Java and showcased it at the Sun World Conference in 1995, which allowed Java programs called applets to be embedded in HTML pages and made web applications interactive.
+-   The applet could run on heterogeneous client platforms, which is platform independence.
+-   Netscape also announced that their popular Netscape Navigator browser would include Java support, and soon the first version of Java was released in January of 1996.
